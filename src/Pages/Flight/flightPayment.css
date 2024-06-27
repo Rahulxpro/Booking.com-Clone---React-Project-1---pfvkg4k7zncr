@@ -1,0 +1,308 @@
+.boggage-details,.paymentMethod{
+    border: 2px solid gray;
+    border-radius: 10px;
+    /* width: 95%; */
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.boggage-details{
+    width: 600px;
+}
+.bag-payment{
+    margin: 15px 190px 0px 220px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 110px;
+}
+.bag-Cat{
+    display: flex;
+    gap: 25px;
+    width: 250px;
+    margin-top: 20px;
+}
+.paymentdetailing{
+    /* margin-left: 150px; */
+    /* padding-left: 100px; */
+}
+.paymentMethod{
+    margin: 50px 190px 0px 220px;
+    width: 40%;
+}
+.payImg{
+    margin-right: 10px;
+    height: 18px;
+    width: 30px;
+    margin-bottom: 15px;
+}
+.inputdata{
+    height: 45px;
+    width: 450px;
+    margin-bottom: 15px;
+    /* margin-top: 10px; */
+}
+.carddetail{
+    height: 45px;
+   display: flex;
+    padding: 4px 0px 0px 5px;
+    width: 300px;
+    border: 1px solid gray;
+    align-items: center;
+    padding-left: 10px;
+    gap: 15px;
+    margin-bottom:25px;
+}
+.expinput{
+    height: 45px;
+    width: 180px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 70px;
+}
+.backBtn{
+    height:45px;
+    width:130px;
+    background-color:#006ce4;
+    color:white;
+    border: none;
+    cursor: pointer;
+    margin: 30px 0px 50px 750px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.cvcdata{
+    position: relative;
+    top: 40px;
+    left: -250px;
+    font-size: 14px;
+}
+.cardData{
+    position: relative;
+    top: 35px;
+    font-size: 14px;
+    left: -220px;
+}
+.payPage{
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    top: 100px;
+    border: 1px solid gray;
+    height: 500px;
+    width: 40%;
+    background-color: white;
+}
+.expinput{
+    margin-bottom: 10px;
+}
+.pay-Btn{
+    font-size: 22px;
+    /* text-align: center;
+     */
+
+    background-color: #006ce4;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.cvcZone1{
+    color: red;
+    font-size: 14px;
+    /* margin-top: 50px; */
+    margin-left: -250px;
+    top: 35px;
+    position: relative;
+    margin-top: 15px;
+}
+.expZone1{
+    /* margin-right: 10px; */
+    margin-left: -250px;
+    top: 35px;
+    position: relative;
+    color: red;
+    font-size: 14px;
+}
+.cardZone1{
+    margin-top: -23px;
+    /* margin-left: -10px; */
+    /* margin-bottom: 10px; */
+    color: red;
+    font-size: 14px;
+    position: absolute;
+}
+
+@media screen and (min-device-width: 1220px) and (max-device-width: 1370px){
+    .boggage-details{
+        width: 500px;
+        margin-left: -100px;
+    }
+    .paymentdetailing{
+        margin-left: -70px;
+    }
+    .paymentMethod
+    {
+        width: 500px;
+        margin-left: 120px;
+    }
+      }
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1219px){
+.boggage-details{
+    width: 500px;
+    margin-left: -100px;
+}
+.paymentdetailing{
+    margin-left: -70px;
+}
+.paymentMethod
+{
+    width: 500px;
+    margin-left: 120px;
+}
+  }
+  
+  @media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .boggage-details{
+        width: 360px;
+        margin-left: -150px;
+    }
+    .paymentdetailing{
+        margin-left: -70px;
+    }
+    .paymentMethod
+    {
+        width: 360px;
+        margin-left: 70px;
+    }
+    #inputd{
+        width:300px;
+    }
+    .classs{
+        width: 50px;
+    }
+  }
+  /* @media screen and (min-device-width: 768px) and (max-device-width: 991px){ */
+    @media screen and (min-device-width: 600px)and (max-device-width: 767px) {
+        .boggage-details{
+            width: 360px;
+            margin-left: -200px;
+        }
+        .paymentdetailing{
+            margin-left: -100px;
+        }
+        .paymentMethod
+        {
+            width: 360px;
+            margin-left: 20px;
+        }
+        #inputd{
+            width:300px;
+            margin-top: 5px;
+            margin: 5px 0 5px 2px;
+        }
+        .totalp{
+            display: block;
+            /* width: 100px; */
+            margin-right: -100px;
+        }
+        .classs{
+            width: 0px;
+            /* font-size: 12px; */
+            margin-left: -80px;
+        }
+        .expinput{
+            margin-left: 2px;
+            margin-top: 5px;
+        }
+        #backb{
+            /* margin-right: 500px; */
+            margin-left: 400px;
+        }
+  }
+  /* @media screen and (min-device-width: 768px) and (max-device-width: 991px){ */
+    @media screen and (min-device-width: 480px)and (max-device-width: 599px) {
+        .bag-payment{
+            display: block;
+        }
+          .boggage-details{
+            width: 360px;
+            margin-left: -150px;
+        }
+        .paymentdetailing{
+            margin-left: -100px;
+        }
+        .paymentMethod
+        {
+            width: 360px;
+            margin-left: 70px;
+        }
+        #inputd{
+            width:300px;
+            margin-top: 5px;
+            margin: 5px 0 5px 2px;
+        }
+        .totalp{
+            display: block;
+            /* width: 100px; */
+            margin-right: -100px;
+        }
+        .classs{
+            width: 0px;
+            /* font-size: 12px; */
+            margin-left: -80px;
+        }
+        .expinput{
+            margin-left: 2px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        #backb{
+            /* margin-right: 500px; */
+            margin-left: 300px;
+        }
+  }
+  @media screen and (min-device-width: 360px)and (max-device-width: 479px) {
+    .bag-payment{
+        display: block;
+    }
+      .boggage-details{
+        width: 360px;
+        margin-left: -180px;
+    }
+    .paymentdetailing{
+        margin-left: -150px;
+    }
+    .paymentMethod
+    {
+        width: 360px;
+        margin-left: 40px;
+    }
+    #inputd{
+        width:300px;
+        margin-top: 5px;
+        margin: 5px 0 5px 2px;
+    }
+    .totalp{
+        display: block;
+        /* width: 100px; */
+        margin-right: -100px;
+    }
+    .classs{
+        width: 0px;
+        /* font-size: 12px; */
+        margin-left: -80px;
+    }
+    .expinput{
+        margin-left: 2px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #backb{
+        /* margin-right: 500px; */
+        margin-left: 300px;
+    }
+}
